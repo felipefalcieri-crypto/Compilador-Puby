@@ -1,0 +1,13 @@
+_x = 10 * (3+4)
+y = 5
+z = "Olá"
+
+puts x, y, z
+
+if x == y
+    puts "x maior"
+elsif x == y
+    puts "iguais"
+else
+    puts "x menor"
+end

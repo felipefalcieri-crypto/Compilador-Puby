@@ -1,0 +1,111 @@
+INFO: --- Iniciando compilação do arquivo class_triangulo.puby ---
+INFO: Fase Léxica iniciada...
+INFO: Iniciando análise léxica do arquivo: class_triangulo.puby
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 1, Coluna: 1
+INFO: Token: TYPE_29, Texto: '"Digite o valor de a:"', Linha: 1, Coluna: 6
+INFO: Token: TYPE_27, Texto: 'a', Linha: 2, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 2, Coluna: 3
+INFO: Token: TYPE_14, Texto: 'gets', Linha: 2, Coluna: 5
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 3, Coluna: 1
+INFO: Token: TYPE_29, Texto: '"Digite o valor de b:"', Linha: 3, Coluna: 6
+INFO: Token: TYPE_27, Texto: 'b', Linha: 4, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 4, Coluna: 3
+INFO: Token: TYPE_14, Texto: 'gets', Linha: 4, Coluna: 5
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 5, Coluna: 1
+INFO: Token: TYPE_29, Texto: '"Digite o valor de c:"', Linha: 5, Coluna: 6
+INFO: Token: TYPE_27, Texto: 'c', Linha: 6, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 6, Coluna: 3
+INFO: Token: TYPE_14, Texto: 'gets', Linha: 6, Coluna: 5
+INFO: Token: TYPE_27, Texto: 'a', Linha: 9, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 9, Coluna: 3
+INFO: Token: TYPE_27, Texto: 'a', Linha: 9, Coluna: 5
+INFO: Token: TYPE_22, Texto: '+', Linha: 9, Coluna: 7
+INFO: Token: TYPE_28, Texto: '0', Linha: 9, Coluna: 9
+INFO: Token: TYPE_27, Texto: 'b', Linha: 10, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 10, Coluna: 3
+INFO: Token: TYPE_27, Texto: 'b', Linha: 10, Coluna: 5
+INFO: Token: TYPE_22, Texto: '+', Linha: 10, Coluna: 7
+INFO: Token: TYPE_28, Texto: '0', Linha: 10, Coluna: 9
+INFO: Token: TYPE_27, Texto: 'c', Linha: 11, Coluna: 1
+INFO: Token: TYPE_2, Texto: '=', Linha: 11, Coluna: 3
+INFO: Token: TYPE_27, Texto: 'c', Linha: 11, Coluna: 5
+INFO: Token: TYPE_22, Texto: '+', Linha: 11, Coluna: 7
+INFO: Token: TYPE_28, Texto: '0', Linha: 11, Coluna: 9
+INFO: Token: TYPE_5, Texto: 'if', Linha: 14, Coluna: 1
+INFO: Token: TYPE_27, Texto: 'a', Linha: 14, Coluna: 4
+INFO: Token: TYPE_24, Texto: '<=', Linha: 14, Coluna: 6
+INFO: Token: TYPE_28, Texto: '0', Linha: 14, Coluna: 9
+INFO: Token: TYPE_17, Texto: 'or', Linha: 14, Coluna: 11
+INFO: Token: TYPE_27, Texto: 'b', Linha: 14, Coluna: 14
+INFO: Token: TYPE_24, Texto: '<=', Linha: 14, Coluna: 16
+INFO: Token: TYPE_28, Texto: '0', Linha: 14, Coluna: 19
+INFO: Token: TYPE_17, Texto: 'or', Linha: 14, Coluna: 21
+INFO: Token: TYPE_27, Texto: 'c', Linha: 14, Coluna: 24
+INFO: Token: TYPE_24, Texto: '<=', Linha: 14, Coluna: 26
+INFO: Token: TYPE_28, Texto: '0', Linha: 14, Coluna: 29
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 15, Coluna: 5
+INFO: Token: TYPE_29, Texto: '"Medidas inválidas"', Linha: 15, Coluna: 10
+INFO: Token: TYPE_6, Texto: 'elsif', Linha: 16, Coluna: 1
+INFO: Token: TYPE_27, Texto: 'a', Linha: 16, Coluna: 7
+INFO: Token: TYPE_22, Texto: '+', Linha: 16, Coluna: 9
+INFO: Token: TYPE_27, Texto: 'b', Linha: 16, Coluna: 11
+INFO: Token: TYPE_24, Texto: '<=', Linha: 16, Coluna: 13
+INFO: Token: TYPE_27, Texto: 'c', Linha: 16, Coluna: 16
+INFO: Token: TYPE_17, Texto: 'or', Linha: 16, Coluna: 18
+INFO: Token: TYPE_27, Texto: 'a', Linha: 16, Coluna: 21
+INFO: Token: TYPE_22, Texto: '+', Linha: 16, Coluna: 23
+INFO: Token: TYPE_27, Texto: 'c', Linha: 16, Coluna: 25
+INFO: Token: TYPE_24, Texto: '<=', Linha: 16, Coluna: 27
+INFO: Token: TYPE_27, Texto: 'b', Linha: 16, Coluna: 30
+INFO: Token: TYPE_17, Texto: 'or', Linha: 16, Coluna: 32
+INFO: Token: TYPE_27, Texto: 'b', Linha: 16, Coluna: 35
+INFO: Token: TYPE_22, Texto: '+', Linha: 16, Coluna: 37
+INFO: Token: TYPE_27, Texto: 'c', Linha: 16, Coluna: 39
+INFO: Token: TYPE_24, Texto: '<=', Linha: 16, Coluna: 41
+INFO: Token: TYPE_27, Texto: 'a', Linha: 16, Coluna: 44
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 17, Coluna: 5
+INFO: Token: TYPE_29, Texto: '"Medidas inválidas"', Linha: 17, Coluna: 10
+INFO: Token: TYPE_7, Texto: 'else', Linha: 18, Coluna: 1
+INFO: Token: TYPE_5, Texto: 'if', Linha: 20, Coluna: 5
+INFO: Token: TYPE_27, Texto: 'a', Linha: 20, Coluna: 8
+INFO: Token: TYPE_24, Texto: '==', Linha: 20, Coluna: 10
+INFO: Token: TYPE_27, Texto: 'b', Linha: 20, Coluna: 13
+INFO: Token: TYPE_16, Texto: 'and', Linha: 20, Coluna: 15
+INFO: Token: TYPE_27, Texto: 'b', Linha: 20, Coluna: 19
+INFO: Token: TYPE_24, Texto: '==', Linha: 20, Coluna: 21
+INFO: Token: TYPE_27, Texto: 'c', Linha: 20, Coluna: 24
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 21, Coluna: 9
+INFO: Token: TYPE_29, Texto: '"Triângulo equilátero válido"', Linha: 21, Coluna: 14
+INFO: Token: TYPE_6, Texto: 'elsif', Linha: 22, Coluna: 5
+INFO: Token: TYPE_27, Texto: 'a', Linha: 22, Coluna: 11
+INFO: Token: TYPE_24, Texto: '==', Linha: 22, Coluna: 13
+INFO: Token: TYPE_27, Texto: 'b', Linha: 22, Coluna: 16
+INFO: Token: TYPE_17, Texto: 'or', Linha: 22, Coluna: 18
+INFO: Token: TYPE_27, Texto: 'a', Linha: 22, Coluna: 21
+INFO: Token: TYPE_24, Texto: '==', Linha: 22, Coluna: 23
+INFO: Token: TYPE_27, Texto: 'c', Linha: 22, Coluna: 26
+INFO: Token: TYPE_17, Texto: 'or', Linha: 22, Coluna: 28
+INFO: Token: TYPE_27, Texto: 'b', Linha: 22, Coluna: 31
+INFO: Token: TYPE_24, Texto: '==', Linha: 22, Coluna: 33
+INFO: Token: TYPE_27, Texto: 'c', Linha: 22, Coluna: 36
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 23, Coluna: 9
+INFO: Token: TYPE_29, Texto: '"Triângulo isósceles válido"', Linha: 23, Coluna: 14
+INFO: Token: TYPE_7, Texto: 'else', Linha: 24, Coluna: 5
+INFO: Token: TYPE_13, Texto: 'puts', Linha: 25, Coluna: 9
+INFO: Token: TYPE_29, Texto: '"Triângulo escaleno válido"', Linha: 25, Coluna: 14
+INFO: Token: TYPE_8, Texto: 'end', Linha: 26, Coluna: 5
+INFO: Token: TYPE_8, Texto: 'end', Linha: 27, Coluna: 1
+INFO: Token: EOF, Texto: '<EOF>', Linha: 28, Coluna: 1
+INFO: Análise léxica concluída.
+INFO: Fase Léxica concluída sem erros.
+INFO: Fase Sintática iniciada...
+INFO: Iniciando análise sintática...
+INFO: Análise sintática concluída com sucesso. AST gerada.
+INFO: Fase Sintática concluída sem erros. AST gerada com sucesso.
+INFO: Exportando AST para: class_triangulo.dot
+INFO: Exportando AST para DOT: class_triangulo.dot
+INFO: AST exportada com sucesso para class_triangulo.dot
+INFO: Gerando SVG: class_triangulo.svg
+INFO: Gerando SVG: class_triangulo.svg
+INFO: SVG gerado com sucesso: class_triangulo.svg
+INFO: Compilação concluída sem erros!

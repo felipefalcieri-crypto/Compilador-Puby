@@ -1,0 +1,30 @@
+puts "Digite o numero de linhas (N >= 1):"
+n = gets
+
+if n < 1
+    puts "ERRO: O numero de linhas deve ser maior ou igual a 1."
+else
+    i = 0
+    while i < n do
+        k = 1
+        linha_str = "" 
+
+        j = 0
+        while j <= i do
+        
+            if j == 0 
+                linha_str = k 
+            else
+                linha_str = linha_str + " " + k 
+            end
+
+            k = (k * (i - j)) / (j + 1)
+            
+            j++
+        end
+        
+        puts linha_str 
+
+        i++
+    end
+end
